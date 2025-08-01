@@ -1,0 +1,35 @@
+[
+  {
+    "id": "army-special-batch",
+    "title": "Army Special Batch",
+    "description": "Specialized coaching for Indian Army recruitment with intensive training programs",
+    "videoLink": "https://www.youtube.com/embed/bm9ohYLJG-I",
+    "schedule": "6 Months Intensive Training",
+    "successRate": "95% Selection Rate",
+    "batchSize": "Maximum 30 Students",
+    "published": true,
+    "createdAt": "2025-07-31T06:24:16.241Z"
+  },
+  {
+    "id": "navy-special-batch",
+    "title": "Navy Special Batch",
+    "description": "Specialized coaching for Indian Navy AA/SSR recruitment with technical and swimming training",
+    "videoLink": "https://www.youtube.com/embed/MbxhRScv0P4",
+    "schedule": "6 Months Intensive Training",
+    "successRate": "95% Selection Rate",
+    "batchSize": "Maximum 25 Students",
+    "published": true,
+    "createdAt": "2025-07-31T06:24:16.241Z"
+  },
+  {
+    "id": "sdfghjk",
+    "title": "sdfghjk",
+    "description": "sdcfvgbhnjmkl",
+    "videoLink": "https://www.youtube.com/@missiondefenceacademy22?si=yGvqHnPSXoamzVGA",
+    "schedule": "34",
+    "successRate": "67",
+    "batchSize": "56",
+    "published": true,
+    "createdAt": "2025-07-31T06:24:16.241Z"
+  }
+]
