@@ -515,7 +515,7 @@ useEffect(() => {
                 className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
               />
               <div className="p-4">
-                <p className="text-sm font-medium text-gray-900">Classroom Training - Expert Faculty</p>
+                <p className="text-sm font-medium text-gray-900">Expert Faculty</p>
               </div>
             </div>
 
