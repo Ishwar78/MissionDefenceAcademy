@@ -20,7 +20,7 @@ const Contact = () => {
   });
   const [contactData, setContactData] = useState<ContactData>({
     phone: '+91 7700008052',
-    email: 'Missiondefenceacademy22@gmail.com',
+    email: 'Mdaclasses22@gmail.com',
     address: 'Tiranga Building, near Rajiv Gandhi Sports Stadium\nRohtak Haryana, pin 124001',
     mapEmbed: ''
   });

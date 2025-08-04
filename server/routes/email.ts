@@ -28,8 +28,8 @@ export const handleContactEmail: RequestHandler = async (req, res) => {
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'sharmaishwar970@gmail.com',
-        pass: 'eofd aevw edck wshp'
+        user: 'Mdaclasses22@gmail.com',
+        pass: 'pley mtlw ddhw xfxe'
       }
     });
 
@@ -40,8 +40,8 @@ export const handleContactEmail: RequestHandler = async (req, res) => {
 
     // Email content
     const mailOptions = {
-      from: 'sharmaishwar970@gmail.com',
-      to: 'sharmaishwar970@gmail.com',
+      from: 'Mdaclasses22@gmail.com',
+      to: 'Mdaclasses22@gmail.com',
       subject: `Contact Form: ${subject}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">

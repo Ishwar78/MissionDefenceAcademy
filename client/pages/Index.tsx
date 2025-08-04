@@ -204,7 +204,7 @@ useEffect(() => {
             <div className="text-center">
               <div className="w-64 h-64 mx-auto rounded-full overflow-hidden shadow-lg">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2Fb7d2dddbea3a4faa87700c4fefaa7aa2?format=webp&width=800"
+                  src="/images/coachimage.jpg"
                   alt="Coach Sandeep Pannu"
                   className="w-full h-full object-cover"
                 />

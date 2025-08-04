@@ -34,7 +34,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2Fd3fc872c7e284dc5a15b014ce8c7c91c?format=webp&width=800"
+                src="/images/logo-removebg-preview.png"
                 alt="Mission Defence Academy Logo"
                 className="w-10 h-10 sm:w-12 sm:h-12 object-contain"
               />
@@ -42,7 +42,7 @@ const Header = () => {
                 Mission Defence Academy
               </span>
               <span className="ml-2 text-sm font-bold text-gray-900 block sm:hidden">
-                MDA
+                 Mission Defence Academy
               </span>
             </Link>
           </div>

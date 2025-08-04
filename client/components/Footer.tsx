@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2Fd3fc872c7e284dc5a15b014ce8c7c91c?format=webp&width=800"
+                src="images/logo-removebg-preview.png"
                 alt="Mission Defence Academy Logo"
                 className="w-12 h-12 object-contain"
               />
@@ -26,7 +26,7 @@ const Footer = () => {
               <p>📍 Tiranga Building, near Rajiv Gandhi Sports Stadium</p>
               <p>Rohtak Haryana, pin 124001</p>
               <p>📞 +91 7700008052</p>
-              <p>📧 Missiondefenceacademy22@gmail.com</p>
+              <p>📧 Mdaclasses22@gmail.com</p>
             </div>
           </div>
 
