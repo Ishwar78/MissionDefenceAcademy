@@ -161,7 +161,8 @@ useEffect(() => {
   </div>
 </section>
 
-
+      {/* Military Excellence Gallery */}
+      <MilitaryGallery />
 
       {/* About Section */}
       <section className="py-16 bg-white">
