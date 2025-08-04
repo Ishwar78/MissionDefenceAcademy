@@ -1,10 +1,10 @@
-
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 
 import { Star, Users, Trophy, CheckCircle, Phone, Mail, MapPin, PlayCircle } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import MilitaryGallery from '../components/MilitaryGallery';
 
 const Index = () => {
   const courses = [
