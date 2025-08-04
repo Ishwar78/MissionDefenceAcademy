@@ -78,7 +78,7 @@ const Footer = () => {
                 <Instagram className="h-6 w-6" />
               </a>
               <a
-                href="https://www.youtube.com/@mdaclasses"
+                href="https://www.youtube.com/@missiondefenceacademyrohtak"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-red-500 transition-colors"
@@ -98,7 +98,7 @@ const Footer = () => {
             </div>
             <div className="text-sm text-gray-400 mt-8">
               <p>📞 <a href="tel:+917700008052" className="hover:text-white transition-colors">+91 7700008052</a></p>
-              <p>🎥 <a href="https://www.youtube.com/@mdaclasses" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">YouTube Channel</a></p>
+              <p>🎥 <a href="https://www.youtube.com/@missiondefenceacademyrohtak" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">YouTube Channel</a></p>
             </div>
           </div>
         </div>
