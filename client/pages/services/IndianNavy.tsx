@@ -119,15 +119,15 @@ useEffect(() => {
             </div>
             
             <div className="space-y-6">
-              <img 
-                src="/images/navy.jpeg"
-                alt="Navy Training Formation"
-                className="w-full rounded-lg shadow-lg"
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2Ff21d218e040d46c7840211752e0bd266?format=webp&width=800"
+                alt="Elite Navy Formation"
+                className="w-full rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               />
-              <img 
-                src="/images/navy1.jpg"
-                alt="Navy Officers Training"
-                className="w-full rounded-lg shadow-lg"
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2F1b346c3363614516a67586c4047be3ef?format=webp&width=800"
+                alt="Navy Officers and Helicopter Training"
+                className="w-full rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               />
             </div>
           </div>
