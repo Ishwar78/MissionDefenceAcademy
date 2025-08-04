@@ -523,7 +523,7 @@ useEffect(() => {
             <div className="bg-gray-800 p-6 rounded-lg">
               <Mail className="h-8 w-8 text-red-500 mx-auto mb-4" />
               <h3 className="text-lg font-semibold mb-2">Email Us</h3>
-              <p className="text-gray-300">Missiondefenceacademy22@gmail.com</p>
+              <p className="text-gray-300">Mdaclasses22@gmail.com</p>
             </div>
             
             <div className="bg-gray-800 p-6 rounded-lg">
