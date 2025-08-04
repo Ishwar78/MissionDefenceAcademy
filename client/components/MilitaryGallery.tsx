@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const MilitaryGallery = () => {
   const militaryImages = [
@@ -7,38 +7,41 @@ const MilitaryGallery = () => {
       src: "https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2Fe3e174ee138d4caabff1d626ff0cd20f?format=webp&width=800",
       alt: "Army Formation",
       title: "Army Excellence",
-      description: "Elite army personnel in formation, showcasing discipline and precision"
+      description:
+        "Elite army personnel in formation, showcasing discipline and precision",
     },
     {
       src: "https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2Ff21d218e040d46c7840211752e0bd266?format=webp&width=800",
       alt: "Navy Personnel",
       title: "Naval Pride",
-      description: "Indian Navy officers displaying maritime excellence and honor"
+      description:
+        "Indian Navy officers displaying maritime excellence and honor",
     },
     {
       src: "https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2F0d049290581e4af69b2cfd3db4e1dd43?format=webp&width=800",
       alt: "Army Operations",
       title: "Combat Readiness",
-      description: "Military operations showcasing tactical expertise and bravery"
+      description:
+        "Military operations showcasing tactical expertise and bravery",
     },
     {
       src: "https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2Fdd13b770fbd247e5980314555045b3d0?format=webp&width=800",
       alt: "Soldier Training",
       title: "Elite Training",
-      description: "Professional soldier training demonstrating combat skills"
+      description: "Professional soldier training demonstrating combat skills",
     },
     {
       src: "https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2F36e4fdd0037d44b1bf1a5d4a63c4167b?format=webp&width=800",
       alt: "Air Force Team",
       title: "Air Force Excellence",
-      description: "Elite Air Force pilots showcasing aviation excellence"
+      description: "Elite Air Force pilots showcasing aviation excellence",
     },
     {
       src: "https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2Fb2834ced93b444a59b54a962eeb1fd95?format=webp&width=800",
       alt: "Military Parade",
       title: "National Pride",
-      description: "Military parade displaying strength and patriotism"
-    }
+      description: "Military parade displaying strength and patriotism",
+    },
   ];
 
   return (
@@ -50,16 +53,17 @@ const MilitaryGallery = () => {
             Excellence in <span className="text-red-600">Defence Training</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Witness the strength, discipline, and honor of our nation's finest. These images represent 
-            the pinnacle of military excellence that we strive to instill in every cadet.
+            Witness the strength, discipline, and honor of our nation's finest.
+            These images represent the pinnacle of military excellence that we
+            strive to instill in every cadet.
           </p>
         </div>
 
         {/* Military Image Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {militaryImages.map((image, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2"
             >
               <div className="relative overflow-hidden">
@@ -80,10 +84,13 @@ const MilitaryGallery = () => {
 
         {/* Call to Action */}
         <div className="text-center bg-gradient-to-r from-red-600 to-red-700 rounded-2xl p-12 text-white">
-          <h3 className="text-3xl font-bold mb-4">Ready to Serve the Nation?</h3>
+          <h3 className="text-3xl font-bold mb-4">
+            Ready to Serve the Nation?
+          </h3>
           <p className="text-xl text-red-100 mb-8 max-w-2xl mx-auto">
-            Join Mission Defence Academy and transform yourself into a disciplined, capable defence officer. 
-            Your journey to excellence starts here.
+            Join Mission Defence Academy and transform yourself into a
+            disciplined, capable defence officer. Your journey to excellence
+            starts here.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Facebook, Instagram, Phone, Youtube } from 'lucide-react';
+import React from "react";
+import { Link } from "react-router-dom";
+import { Facebook, Instagram, Phone, Youtube } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -20,7 +20,8 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-gray-300 text-sm">
-              Making Future Officers through strategic teaching approach and character building for national service.
+              Making Future Officers through strategic teaching approach and
+              character building for national service.
             </p>
             <div className="text-sm text-gray-400">
               <p>📍 Tiranga Building, near Rajiv Gandhi Sports Stadium</p>
@@ -34,22 +35,40 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Quick Links</h3>
             <div className="grid grid-cols-2 gap-2 text-sm">
-              <Link to="/blog" className="text-gray-300 hover:text-white transition-colors">
+              <Link
+                to="/blog"
+                className="text-gray-300 hover:text-white transition-colors"
+              >
                 Blog
               </Link>
-              <Link to="/about" className="text-gray-300 hover:text-white transition-colors">
+              <Link
+                to="/about"
+                className="text-gray-300 hover:text-white transition-colors"
+              >
                 About
               </Link>
-              <Link to="/faq" className="text-gray-300 hover:text-white transition-colors">
+              <Link
+                to="/faq"
+                className="text-gray-300 hover:text-white transition-colors"
+              >
                 FAQ
               </Link>
-              <Link to="/authors" className="text-gray-300 hover:text-white transition-colors">
+              <Link
+                to="/authors"
+                className="text-gray-300 hover:text-white transition-colors"
+              >
                 Authors
               </Link>
-              <Link to="/events" className="text-gray-300 hover:text-white transition-colors">
+              <Link
+                to="/events"
+                className="text-gray-300 hover:text-white transition-colors"
+              >
                 Events
               </Link>
-              <Link to="/shop" className="text-gray-300 hover:text-white transition-colors">
+              <Link
+                to="/shop"
+                className="text-gray-300 hover:text-white transition-colors"
+              >
                 Shop
               </Link>
             </div>
@@ -97,8 +116,26 @@ const Footer = () => {
               </a>
             </div>
             <div className="text-sm text-gray-400 mt-8">
-              <p>📞 <a href="tel:+917700008052" className="hover:text-white transition-colors">+91 7700008052</a></p>
-              <p>🎥 <a href="https://www.youtube.com/@missiondefenceacademyrohtak" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">YouTube Channel</a></p>
+              <p>
+                📞{" "}
+                <a
+                  href="tel:+917700008052"
+                  className="hover:text-white transition-colors"
+                >
+                  +91 7700008052
+                </a>
+              </p>
+              <p>
+                🎥{" "}
+                <a
+                  href="https://www.youtube.com/@missiondefenceacademyrohtak"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  YouTube Channel
+                </a>
+              </p>
             </div>
           </div>
         </div>
@@ -108,7 +145,10 @@ const Footer = () => {
           <div className="flex justify-center items-center space-x-4 mb-4">
             <p>&copy; 2024 Mission Defence Academy. All rights reserved.</p>
             <span>•</span>
-            <Link to="/admin/login" className="hover:text-white transition-colors">
+            <Link
+              to="/admin/login"
+              className="hover:text-white transition-colors"
+            >
               Admin
             </Link>
           </div>
