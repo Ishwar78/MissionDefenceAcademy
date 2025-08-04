@@ -118,15 +118,15 @@ useEffect(() => {
             </div>
             
             <div className="space-y-6">
-              <img 
-                src="/images/airforce.jpg"
-                alt="Air Force Jets"
-                className="w-full rounded-lg shadow-lg"
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2F36e4fdd0037d44b1bf1a5d4a63c4167b?format=webp&width=800"
+                alt="Elite Air Force Pilots"
+                className="w-full rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               />
-              <img 
-                src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&h=600&fit=crop&crop=center"
-                alt="Air Force Training"
-                className="w-full rounded-lg shadow-lg"
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2F10092c6d73104f059dcef6b2494da26d?format=webp&width=800"
+                alt="Air Force Formation with Aircraft"
+                className="w-full rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               />
             </div>
           </div>
