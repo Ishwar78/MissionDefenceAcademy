@@ -118,15 +118,15 @@ useEffect(() => {
             </div>
             
             <div className="space-y-6">
-              <img 
-                src="/images/army.jpg"
-                alt="Army Training at Stadium"
-                className="w-full rounded-lg shadow-lg"
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2Fe3e174ee138d4caabff1d626ff0cd20f?format=webp&width=800"
+                alt="Elite Army Formation"
+                className="w-full rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               />
-              <img 
-                src="https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2Fd98551f2ac254a478b9bb12650f212d7?format=webp&width=800"
-                alt="Army Physical Training"
-                className="w-full rounded-lg shadow-lg"
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fe9a77209c0ab4c10a9cc4ef22c9de513%2F0d049290581e4af69b2cfd3db4e1dd43?format=webp&width=800"
+                alt="Army Combat Operations"
+                className="w-full rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               />
             </div>
           </div>
