@@ -60,32 +60,45 @@ const Footer = () => {
             <h3 className="text-lg font-semibold">Follow Us</h3>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/groups/133143281449195/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-blue-500 transition-colors"
+                title="Facebook"
               >
                 <Facebook className="h-6 w-6" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/missionarmydefenceacademy01/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-pink-500 transition-colors"
+                title="Instagram"
               >
                 <Instagram className="h-6 w-6" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://www.youtube.com/@mdaclasses"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-300 hover:text-blue-400 transition-colors"
+                className="text-gray-300 hover:text-red-500 transition-colors"
+                title="YouTube"
               >
-                <Twitter className="h-6 w-6" />
+                <Youtube className="h-6 w-6" />
+              </a>
+              <a
+                href="https://wa.me/917700008052"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-green-500 transition-colors"
+                title="WhatsApp"
+              >
+                <Phone className="h-6 w-6" />
               </a>
             </div>
             <div className="text-sm text-gray-400 mt-8">
-              <p>Designed with WordPress</p>
+              <p>📞 <a href="tel:+917700008052" className="hover:text-white transition-colors">+91 7700008052</a></p>
+              <p>🎥 <a href="https://www.youtube.com/@mdaclasses" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">YouTube Channel</a></p>
             </div>
           </div>
         </div>
